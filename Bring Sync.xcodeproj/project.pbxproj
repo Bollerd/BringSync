@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32B82892B99EF41008A3FB7 /* Bring_SyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B82882B99EF41008A3FB7 /* Bring_SyncApp.swift */; };
+		F32B828D2B99EF42008A3FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32B828C2B99EF42008A3FB7 /* Assets.xcassets */; };
+		F32B82902B99EF42008A3FB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32B828F2B99EF42008A3FB7 /* Preview Assets.xcassets */; };
+		F32B82972B99EF69008A3FB7 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B82962B99EF69008A3FB7 /* Reminders.swift */; };
+		F32B82992B99F309008A3FB7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B82982B99F309008A3FB7 /* Extensions.swift */; };
+		F3475F972C931AD500E618AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3475F962C931AD500E618AE /* ContentView.swift */; };
+		F3475F992C931C2A00E618AE /* Cred.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3475F982C931C2A00E618AE /* Cred.swift */; };
+		F36A98FD2B9A34D600059BA7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A98FC2B9A34D600059BA7 /* Model.swift */; };
+		F3E9B7B82CFC3603005C0094 /* BringAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E9B7B72CFC35FF005C0094 /* BringAPI.swift */; };
+		F3E9B7BA2CFCB3C7005C0094 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E9B7B92CFCB3C1005C0094 /* SettingsView.swift */; };
+		F3E9B7BD2CFDB056005C0094 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E9B7BC2CFDB056005C0094 /* Security.framework */; };
+		F3E9B7D22CFFA98C005C0094 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E9B7D12CFFA989005C0094 /* Constants.swift */; };
+		F3E9B7D42CFFA9E3005C0094 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = F3E9B7D32CFFA9E3005C0094 /* README.MD */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F32B82852B99EF41008A3FB7 /* Bring Sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bring Sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32B82882B99EF41008A3FB7 /* Bring_SyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bring_SyncApp.swift; sourceTree = "<group>"; };
+		F32B828C2B99EF42008A3FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F32B828F2B99EF42008A3FB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F32B82962B99EF69008A3FB7 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		F32B82982B99F309008A3FB7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F3475F962C931AD500E618AE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Bring Sync/View/ContentView.swift"; sourceTree = "<group>"; };
+		F3475F982C931C2A00E618AE /* Cred.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cred.swift; sourceTree = "<group>"; };
+		F36A98FB2B9A34A900059BA7 /* Bring-Sync-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bring-Sync-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F36A98FC2B9A34D600059BA7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F36A98FE2B9A63AE00059BA7 /* Bring Sync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bring Sync.entitlements"; sourceTree = "<group>"; };
+		F3E9B7B72CFC35FF005C0094 /* BringAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BringAPI.swift; sourceTree = "<group>"; };
+		F3E9B7B92CFCB3C1005C0094 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F3E9B7BC2CFDB056005C0094 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F3E9B7D12CFFA989005C0094 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F3E9B7D32CFFA9E3005C0094 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32B82822B99EF41008A3FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E9B7BD2CFDB056005C0094 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3016CEC2C93188B0097DB9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3E9B7B92CFCB3C1005C0094 /* SettingsView.swift */,
+				F3475F962C931AD500E618AE /* ContentView.swift */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F3016CED2C9318960097DB9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3E9B7D12CFFA989005C0094 /* Constants.swift */,
+				F3E9B7B72CFC35FF005C0094 /* BringAPI.swift */,
+				F32B82962B99EF69008A3FB7 /* Reminders.swift */,
+				F3475F982C931C2A00E618AE /* Cred.swift */,
+				F36A98FC2B9A34D600059BA7 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F32B827C2B99EF41008A3FB7 = {
+			isa = PBXGroup;
+			children = (
+				F32B82872B99EF41008A3FB7 /* Bring Sync */,
+				F3E9B7BB2CFDB056005C0094 /* Frameworks */,
+				F32B82862B99EF41008A3FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F32B82862B99EF41008A3FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32B82852B99EF41008A3FB7 /* Bring Sync.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32B82872B99EF41008A3FB7 /* Bring Sync */ = {
+			isa = PBXGroup;
+			children = (
+				F36A98FE2B9A63AE00059BA7 /* Bring Sync.entitlements */,
+				F36A98FB2B9A34A900059BA7 /* Bring-Sync-Info.plist */,
+				F32B82882B99EF41008A3FB7 /* Bring_SyncApp.swift */,
+				F3016CEC2C93188B0097DB9C /* View */,
+				F32B828C2B99EF42008A3FB7 /* Assets.xcassets */,
+				F32B828E2B99EF42008A3FB7 /* Preview Content */,
+				F32B82982B99F309008A3FB7 /* Extensions.swift */,
+				F3016CED2C9318960097DB9C /* Model */,
+				F3E9B7D32CFFA9E3005C0094 /* README.MD */,
+			);
+			path = "Bring Sync";
+			sourceTree = "<group>";
+		};
+		F32B828E2B99EF42008A3FB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F32B828F2B99EF42008A3FB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3E9B7BB2CFDB056005C0094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E9B7BC2CFDB056005C0094 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32B82842B99EF41008A3FB7 /* Bring Sync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32B82932B99EF42008A3FB7 /* Build configuration list for PBXNativeTarget "Bring Sync" */;
+			buildPhases = (
+				F32B82812B99EF41008A3FB7 /* Sources */,
+				F32B82822B99EF41008A3FB7 /* Frameworks */,
+				F32B82832B99EF41008A3FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bring Sync";
+			productName = "Bring Sync";
+			productReference = F32B82852B99EF41008A3FB7 /* Bring Sync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32B827D2B99EF41008A3FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F32B82842B99EF41008A3FB7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F32B82802B99EF41008A3FB7 /* Build configuration list for PBXProject "Bring Sync" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F32B827C2B99EF41008A3FB7;
+			productRefGroup = F32B82862B99EF41008A3FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32B82842B99EF41008A3FB7 /* Bring Sync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32B82832B99EF41008A3FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E9B7D42CFFA9E3005C0094 /* README.MD in Resources */,
+				F32B82902B99EF42008A3FB7 /* Preview Assets.xcassets in Resources */,
+				F32B828D2B99EF42008A3FB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32B82812B99EF41008A3FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36A98FD2B9A34D600059BA7 /* Model.swift in Sources */,
+				F3E9B7BA2CFCB3C7005C0094 /* SettingsView.swift in Sources */,
+				F32B82972B99EF69008A3FB7 /* Reminders.swift in Sources */,
+				F3E9B7B82CFC3603005C0094 /* BringAPI.swift in Sources */,
+				F3475F972C931AD500E618AE /* ContentView.swift in Sources */,
+				F32B82892B99EF41008A3FB7 /* Bring_SyncApp.swift in Sources */,
+				F32B82992B99F309008A3FB7 /* Extensions.swift in Sources */,
+				F3475F992C931C2A00E618AE /* Cred.swift in Sources */,
+				F3E9B7D22CFFA98C005C0094 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F32B82912B99EF42008A3FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F32B82922B99EF42008A3FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F32B82942B99EF42008A3FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bring Sync/Bring Sync.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"Bring Sync/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6946K9NFZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bring-Sync-Info.plist";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Um die Erinnerungen mit Bring zu synchronisieren";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.bollernet.Bring-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F32B82952B99EF42008A3FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bring Sync/Bring Sync.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"Bring Sync/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6946K9NFZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bring-Sync-Info.plist";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Um die Erinnerungen mit Bring zu synchronisieren";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.bollernet.Bring-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32B82802B99EF41008A3FB7 /* Build configuration list for PBXProject "Bring Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32B82912B99EF42008A3FB7 /* Debug */,
+				F32B82922B99EF42008A3FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32B82932B99EF42008A3FB7 /* Build configuration list for PBXNativeTarget "Bring Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32B82942B99EF42008A3FB7 /* Debug */,
+				F32B82952B99EF42008A3FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F32B827D2B99EF41008A3FB7 /* Project object */;
+}
